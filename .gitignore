@@ -3,3 +3,6 @@
 .settings/*
 target/*
 *.html
+.classpath
+.DS_Store
+.project
