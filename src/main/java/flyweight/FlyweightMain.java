@@ -8,6 +8,7 @@ package flyweight;
  * pool 과 같은 저장소를 구성하고 필요할때 마다 꺼내쓰는 패턴이 Flyweight 에 해당한다.
  * 리소스가 많이 필요한 file reader 를 통해 BigChar 에 데이터를 저장하고 이를 pool 에 저장,
  *
+ * 구성요소
  * Flyweight(플라이급) - pool에 저장되어 필요할때 마다 꺼내어지는 재활용 공유 객체, BigChar 이 해당역할
  * FlyweightFactory - Flyweight 객체를 생성해 pool에 저장, BigCharFactory 이 해당역할
  * Client - FlyweightFactory 를 사용해 Flyweight 를 만들고 사용하는 역할, BigString 이 해당역할
